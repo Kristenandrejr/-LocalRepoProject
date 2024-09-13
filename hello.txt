@@ -1,0 +1,16 @@
+# Step 1: Create a New File Locally
+mkdir LocalRepoProject
+cd LocalRepoProject
+touch hello.txt
+echo "Hello, Git and GitHub!" > hello.txt
+# Step 2: Initialize a Git Repository
+git init
+# Step 3: Commit Your File to the Repository
+git add hello.txt
+git commit -m "Add hello.txt with greeting"
+git branch -M main
+# Step 4: Create a New Repository on GitHub
+# (Follow instructions on GitHub to create a repository named LocalRepoProject)
+# Step 5: Push the Local Repository to GitHub
+git remote add origin <REPOSITORY-URL>  # Replace with your repository URL
+git push -u origin main
